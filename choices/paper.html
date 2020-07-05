@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <title>Rock</title>
+</head>
+<body>
+
+    <p id='text'></p>
+    <img id="iconimage" >
+
+    <script>
+        var output = Math.floor(Math.random() * 3) + 1;
+        var string;
+        if (output == 1) {
+            string = 'You win. Computer chose rock.';
+            document.getElementById("text").innerHTML = string;
+            document.getElementById("iconimage").src = '../icons/rock.png'
+            
+        }
+        if (output == 2) {
+            string = 'You tie. Computer chose paper.';
+            document.getElementById("text").innerHTML = string;
+            document.getElementById("iconimage").src = '../icons/paper.png'
+        }
+        if (output == 3) {
+            string = 'You lose. Computer chose scissors.';
+            document.getElementById("text").innerHTML = string;
+            document.getElementById("iconimage").src = '../icons/scissors.png'
+        }
+    </script>
+
+    <a href="../index.html">
+        <p>Play Again?</p>
+
+    </a>
+
+    
+
+
+
+</body>
+</html>

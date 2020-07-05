@@ -1,0 +1,25 @@
+body {
+    background-color: #fef0ef;
+  }
+
+@font-face { font-family: Pixellari; src: url('Pixellari.ttf');}
+
+p {
+  font-family: Pixellari;
+  font-size: 75px;
+  text-align: center;
+}
+
+#gallery{
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-gap: 20px;
+  margin: 12px 180px;
+  height: 500px;
+}
+
+#iconimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
