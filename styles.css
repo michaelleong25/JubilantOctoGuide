@@ -6,7 +6,7 @@ body {
 
 p {
   font-family: Pixellari;
-  font-size: 75px;
+  font-size: 65px;
   text-align: center;
 }
 
@@ -21,6 +21,7 @@ p {
 }
 
 #iconimage {
+  align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
