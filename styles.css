@@ -12,10 +12,12 @@ p {
 
 #gallery{
   display: grid;
-  grid-template-columns: 500px 500px 500px;
-  grid-gap: 20px;
-  margin: 12px 180px;
-  height: 500px;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 15px;
+  margin: 10px 230px;
+  height: 400px;
 }
 
 #iconimage {
